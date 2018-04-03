@@ -17,8 +17,8 @@ plt.legend()
 
 plt.title("Tiempo de procesamiento")
 
-plt.xlabel("Tiempo de procesamiento")
+plt.ylabel("Tiempo de procesamiento")
 
-plt.ylabel("Elemento de la serie")
+plt.xlabel("Elemento de la serie")
 
 plt.savefig("cpp_vs_python.png")

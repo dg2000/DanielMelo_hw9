@@ -9,4 +9,7 @@ times_cpp.csv: gen_times.x
 
 gen_times.x: 
 	c++ DanielMelo_GenerarTiempos.cpp -o gen_times.x
-
+clean:
+	rm cpp_vs_python.png
+	rm times_cpp.csv
+	rm times_python.csv
